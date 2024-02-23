@@ -1,0 +1,38 @@
+.about {
+    /* width: 92%;
+    display: flex;
+    margin-left:70px;
+    padding: 5px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 3.6px;
+}
+
+.about-image img {
+    /* margin: 100px 70px; */
+    /* border-radius: 10px; */
+    /* height: 60vh; */
+    /* overflow: hidden; */
+}
+.about-content {
+    /* width: 43vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing:1px;
+    font-size:large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.about-content h1{
+    color: gray;
+    font-family: cursive;
+    font-size:xx-large;
+    border-bottom: 2px solid gray;
+}
+
+/* .about-content P {
+    text-align: justify;
+    padding: 20px;
+} */

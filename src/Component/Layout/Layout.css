@@ -1,0 +1,28 @@
+*{
+    margin:0;
+}
+.sidebar-section{
+    /* display: flex; */
+}
+
+.sidebar{
+    height: 100vh;
+    background-color:black;
+    /* width: 7vw; */
+    position:fixed;
+}
+.sidebar-toggle{
+    width: 13vw;
+}
+
+
+.sidebar-toggle-icon{
+    background-color: rgb(0, 138, 113);
+    color: white;
+     float: right;
+     border-bottom-left-radius: 5px;
+     cursor: pointer;
+}
+
+
+

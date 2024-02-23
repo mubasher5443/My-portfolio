@@ -1,0 +1,70 @@
+.home-container {
+    /* background-color: black;
+    margin-left: 6vw;
+    width: 93.9%; */
+}
+
+.home-content {
+    /* font-size: 5vh; */
+    font-weight: bold;
+    /* height: 30vh; */
+    /* padding: 0px; */
+    /* margin-left:4vw; */
+    background: linear-gradient(to right, rgb(147, 147, 141), rgb(243, 244, 243));
+    display: inline-block;
+    color: transparent;
+    background-clip: text;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-btn {
+    margin-top: 10px;
+}
+
+.hire-btn{
+    padding-left: 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(24, 26, 138);
+    padding: 7px 20px;
+}
+
+.hire-btn:hover {
+    background-color: rgb(107, 107, 238);
+    color: white;
+    width: 400px;
+    transition: 1s;
+
+}
+
+.resume-btn{
+    padding-left: 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 161, 9, 0.831);
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+}
+
+.resume-btn:hover {
+    background-color: rgb(48, 102, 48);
+    width: 40vw;
+    transition-duration: 3s;
+}
+
+.theme-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    z-index: 1;
+}

@@ -1,0 +1,65 @@
+.contact {
+   display: flex;
+   width: 90%;
+   /* margin-left: 8%; */
+   box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 3.6px;
+   padding-bottom: 40px;
+}
+
+.contact-image {
+   width: 100%;
+
+}
+
+.contact-icon {
+   gap: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.contact-image img {
+   margin: auto;
+   height: 50vh;
+   margin-top: 20px;
+   border-radius: 5px;
+}
+
+.footer {
+   /* display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 50px;
+   height: 20vh;
+   background-color: black; */
+   /* color: rgb(11, 11, 11); */
+}
+.footer div{
+   background: linear-gradient(to right, #ffffff, #222222 12%,#222222);
+   background-clip: text;
+   background-repeat: repeat;
+   color: transparent;
+   animation:anim 13s linear infinite;
+display: inline-block;
+background-position-x:-900px;
+}
+
+@keyframes anim{
+   0%{
+background-position-x:-800px;
+   }
+   100%{
+      background-position-x:950px;
+
+   }
+}
+.email {
+   margin-left: 340px;
+   margin-top: 30px;
+
+}
+.icon{
+   background-color: rgba(205, 182, 154, 0.124);
+}
