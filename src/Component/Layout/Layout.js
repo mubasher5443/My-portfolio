@@ -32,7 +32,7 @@ export const Layout = () => {
           <Menu toggle={toggle} />
 
         </div>
-        <div className='sm:ml-[5vw] ml-0' style={{ marginLeft: !toggle ? "0" : "5vw" }}>
+        <div  style={{ marginLeft: !toggle ? "0" : "5vw" }}className='sm:ml-[5vw] ml-0'>
 
 
           <Home />
